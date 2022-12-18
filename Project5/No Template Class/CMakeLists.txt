@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.22)
+project(NoTemplateJMatrix)
+
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_FLAGS "-O3")
+FIND_PACKAGE( OpenMP REQUIRED)
+if(OPENMP_FOUND)
+    message("OPENMP FOUND")
+    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${OpenMP_C_FLAGS}")
+endif()
+add_executable(NoTemplateJMatrix main.cpp JChannel.cpp JChannel.h JMatrix.cpp JMatrix.h)
