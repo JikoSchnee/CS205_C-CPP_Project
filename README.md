@@ -1,6 +1,3 @@
-# 2022秋季学期结束后整理所有project
-
-
 # [CPP_Project1_Multiplycation@Jiko](https://github.com/JikoSchnee/SUSTECH_CS205_C-C-Project/tree/main/Project1/code)
 
 - **Name：纪可鸣**
